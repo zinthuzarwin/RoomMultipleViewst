@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GetByPriceRangeActivity">
+
+    <EditText
+        android:id="@+id/txtMinPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Minimum Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtMaxPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Maximum Price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnGetPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Product" />
+</LinearLayout>
